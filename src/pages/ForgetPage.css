@@ -1,0 +1,85 @@
+.forget-page {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .forget-page h2 {
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .email-otp-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .email-otp-row input {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .otp-button {
+    padding: 10px 14px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px;
+  }
+  
+  .otp-button:hover {
+    background-color: #218838;
+  }
+  
+  .forget-page input[type="password"],
+  .forget-page input[type="text"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .forget-page button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .forget-page button:hover {
+    background-color: #0056b3;
+  }
+  
+  .message {
+    margin-top: 15px;
+    font-weight: 500;
+    color: #28a745;
+    font-size: 14px;
+  }
+  
+  /* Optional: Add red for error messages */
+  .message.error {
+    color: red;
+  }
+  
